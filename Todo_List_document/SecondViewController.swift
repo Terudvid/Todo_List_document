@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController, UITextFieldDelegate {
     
+    
+    
     @IBOutlet var textTask: UITextField?
     @IBOutlet var txtDescr: UITextField?
     
@@ -22,7 +24,7 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+//    Add buttonを押したときの処理
     @IBAction func btnAddTask(sender:UIButton){
         TaskMg.addTask(textTask!.text, disc: textTask!.text)
         self.view.endEditing(true)
@@ -30,12 +32,12 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         txtDescr!.text = ""
         self.tabBarController!.selectedIndex = 0
     }
-    
+//    キーボード外を押したときの処理
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.view.endEditing(true)
     }
     
-    
+//    キーボードのリターンキーをしたときの処理
     func textFieldShouldReturn(textField: UITextField) -> Bool{
         textField.resignFirstResponder()
         return true
