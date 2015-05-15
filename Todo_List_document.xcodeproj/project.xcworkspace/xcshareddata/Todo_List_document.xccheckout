@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ECA728B3-623D-4679-82DD-715812910C45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Todo_List_document</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C46C9F4D4FECDD3BCF44FEDB55229CAD67BF50D</key>
+		<string>https://github.com/Terudvid/Todo_List_document.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Todo_List_document.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C46C9F4D4FECDD3BCF44FEDB55229CAD67BF50D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Terudvid/Todo_List_document.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C46C9F4D4FECDD3BCF44FEDB55229CAD67BF50D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C46C9F4D4FECDD3BCF44FEDB55229CAD67BF50D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Todo_List_document</string>
+		</dict>
+	</array>
+</dict>
+</plist>

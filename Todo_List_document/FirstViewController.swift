@@ -42,6 +42,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "text")
         cell.textLabel?.text = TaskMg.tasks[indexPath.row].name
+        cell.textLabel?.textColor = UIColor.redColor()
         cell.detailTextLabel?.text = TaskMg.tasks[indexPath.row].disc
         return cell
         
